@@ -1,0 +1,44 @@
+
+Hcom.codigo.mslogin.entity.Usuario#getAuthorities()Ljava/util/Collection;h
+^/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/entity/Usuario.java2 (@"1*þ
+1   (†
+ƒ
+ 2  (6$
+%0com.codigo.mslogin.entity.Role"__id*K
+
+__unknown_file (/*-#
+!com.codigo.mslogin.entity.Usuario"
+roleš—
+ 2  (=
+%1java.lang.String"'java.lang.Enum#name()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+%0com.codigo.mslogin.entity.Role2name()›˜
+   (1H
+%2Borg.springframework.security.core.authority.SimpleGrantedAuthority"Borg.springframework.security.core.authority.SimpleGrantedAuthority‘
+Ž
+   (>
+%3"^org.springframework.security.core.authority.SimpleGrantedAuthority#<init>(Ljava/lang/String;)V*f
+
+__unknown_file (J
+H
+%2Borg.springframework.security.core.authority.SimpleGrantedAuthority*4
+
+__unknown_file (
+
+%1java.lang.Stringò
+ï
+   (?
+%4java.util.List"5java.util.List#of(Ljava/lang/Object;)Ljava/util/List;*.
+
+__unknown_file ("
+java.util.List*f
+
+__unknown_file (J
+H
+%2Borg.springframework.security.core.authority.SimpleGrantedAuthority""
+   (@
+
+%4java.util.ListB%#
+!com.codigo.mslogin.entity.UsuarioH

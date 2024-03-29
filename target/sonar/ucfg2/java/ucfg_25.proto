@@ -1,0 +1,21 @@
+
+Pcom.codigo.mslogin.service.impl.UsuarioServiceImpl#getUsuarios()Ljava/util/List;y
+o/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/service/impl/UsuarioServiceImpl.java   ($"1*Á
+1! !( µ
+²
+! !( 5
+%0/com.codigo.mslogin.repository.UsuarioRepository"__id*i
+
+__unknown_file (M*K4
+2com.codigo.mslogin.service.impl.UsuarioServiceImpl"
+usuarioRepositoryÕÒ
+! !(*
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*S
+
+__unknown_file (7
+5
+%0/com.codigo.mslogin.repository.UsuarioRepository2	findAll()""
+! !(+
+
+%1java.util.ListB64
+2com.codigo.mslogin.service.impl.UsuarioServiceImplH

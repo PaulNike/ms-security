@@ -1,0 +1,4 @@
+com.codigo.mslogin.service.impl.JWTServiceImpl#extractClaims(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;
+com.codigo.mslogin.service.impl.JWTServiceImpl#extractAllClaims(Ljava/lang/String;)Lio/jsonwebtoken/Claims;
+==
+apply java.util.function.Function#apply(Ljava/lang/Object;)Ljava/lang/Object;

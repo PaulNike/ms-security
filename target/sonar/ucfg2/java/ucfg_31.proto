@@ -1,0 +1,112 @@
+
+≈com.codigo.mslogin.config.SecurityConfiguration#securityFilterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;v
+l/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/config/SecurityConfiguration.java (2"startingBlock*£
+startingBlock3 (NÂ
+‚
+ (	
+%24"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*v
+
+__unknown_file (Z
+X
+httpSecurityHorg.springframework.security.config.annotation.web.builders.HttpSecurityö
+ó
+A (MX
+httpSecurityHorg.springframework.security.config.annotation.web.builders.HttpSecurity"__annotation*#
+
+__unknown_file (
+
+%24*
+1*ç!
+1 (˝˙
+ (:N
+%0Horg.springframework.security.config.annotation.web.builders.HttpSecurity"…org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*v
+
+__unknown_file (Z
+X
+httpSecurityHorg.springframework.security.config.annotation.web.builders.HttpSecurity*"
+
+__unknown_file (
+""26csrf(Lorg/springframework/security/config/Customizer;)∏
+µ
+ ' $(54
+%1.org.springframework.security.config.Customizer"__declareFunction*`
+
+__unknown_file (DB
+@__sonar_lambda_2$com.codigo.mslogin.config.SecurityConfiguration∆√
+ $(6O
+%14Horg.springframework.security.config.annotation.web.builders.HttpSecurity"⁄org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*l
+
+__unknown_file (P
+N
+%0Horg.springframework.security.config.annotation.web.builders.HttpSecurity*R
+
+__unknown_file (6
+4
+%1.org.springframework.security.config.Customizer2GauthorizeHttpRequests(Lorg/springframework/security/config/Customizer;)π
+∂
+%# %(l5
+%15.org.springframework.security.config.Customizer"__declareFunction*`
+
+__unknown_file (DB
+@__sonar_lambda_3$com.codigo.mslogin.config.SecurityConfiguration¿Ω
+ %(mO
+%18Horg.springframework.security.config.annotation.web.builders.HttpSecurity"÷org.springframework.security.config.annotation.web.builders.HttpSecurity#sessionManagement(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*m
+
+__unknown_file (Q
+O
+%14Horg.springframework.security.config.annotation.web.builders.HttpSecurity*S
+
+__unknown_file (7
+5
+%15.org.springframework.security.config.Customizer2CsessionManagement(Lorg/springframework/security/config/Customizer;)“œ
+&( &(@I
+%19Borg.springframework.security.authentication.AuthenticationProvider"åcom.codigo.mslogin.config.SecurityConfiguration#authenticationProvider()Lorg/springframework/security/authentication/AuthenticationProvider;*O
+
+__unknown_file (31
+/com.codigo.mslogin.config.SecurityConfiguration2authenticationProvider()ÜÉ
+ &(AO
+%20Horg.springframework.security.config.annotation.web.builders.HttpSecurity"Ôorg.springframework.security.config.annotation.web.builders.HttpSecurity#authenticationProvider(Lorg/springframework/security/authentication/AuthenticationProvider;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*m
+
+__unknown_file (Q
+O
+%18Horg.springframework.security.config.annotation.web.builders.HttpSecurity*g
+
+__unknown_file (K
+I
+%19Borg.springframework.security.authentication.AuthenticationProvider2\authenticationProvider(Lorg/springframework/security/authentication/AuthenticationProvider;)ª
+∏
+' '(/8
+%211com.codigo.mslogin.config.JwtAuthenticationFilter"__id*l
+
+__unknown_file (P*N1
+/com.codigo.mslogin.config.SecurityConfiguration"
+jwtAuthenticationFilter’“
+ ((O
+%22Horg.springframework.security.config.annotation.web.builders.HttpSecurity"Õorg.springframework.security.config.annotation.web.builders.HttpSecurity#addFilterBefore(Ljakarta/servlet/Filter;Ljava/lang/Class;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;*m
+
+__unknown_file (Q
+O
+%20Horg.springframework.security.config.annotation.web.builders.HttpSecurity*V
+
+__unknown_file (:
+8
+%211com.codigo.mslogin.config.JwtAuthenticationFilter*"
+
+__unknown_file (
+""2:addFilterBefore(Ljakarta/servlet/Filter;Ljava/lang/Class;)¥±
+) )('B
+%23;org.springframework.security.web.DefaultSecurityFilterChain"`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;*v
+
+__unknown_file (Z
+X
+httpSecurityHorg.springframework.security.config.annotation.web.builders.HttpSecurity2build()"P
+) )((D
+B
+%23;org.springframework.security.web.DefaultSecurityFilterChain:d
+4 (MX
+httpSecurityHorg.springframework.security.config.annotation.web.builders.HttpSecurityB31
+/com.codigo.mslogin.config.SecurityConfigurationH

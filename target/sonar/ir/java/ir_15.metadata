@@ -1,0 +1,9 @@
+com.codigo.mslogin.service.impl.AuthenticationServiceImpl#signin(Lcom/codigo/mslogin/request/SignInRequest;)Lcom/codigo/mslogin/response/AuthenticationResponse;
+com.codigo.mslogin.response.AuthenticationResponse#<init>()V
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken#instance-init#
+com.codigo.mslogin.response.AuthenticationResponse#instance-init#
+==
+generateToken com.codigo.mslogin.service.JWTService#generateToken(Lorg/springframework/security/core/userdetails/UserDetails;)Ljava/lang/String;
+authenticate org.springframework.security.authentication.AuthenticationManager#authenticate(Lorg/springframework/security/core/Authentication;)Lorg/springframework/security/core/Authentication;
+findByEmail com.codigo.mslogin.repository.UsuarioRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;

@@ -1,0 +1,26 @@
+
+@__sonar_lambda_3$com.codigo.mslogin.config.SecurityConfigurationv
+l/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/config/SecurityConfiguration.java%# %(l"1*Å
+1%. %(5}
+{
+%L %(kE
+%16>org.springframework.security.config.http.SessionCreationPolicy"__id*"
+
+__unknown_file (
+""ÅÂ
+%. %(la
+%17Zorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer"Žorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer#sessionCreationPolicy(Lorg/springframework/security/config/http/SessionCreationPolicy;)Lorg/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer;*ƒ
+
+__unknown_file (g
+e
+managerZorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer*c
+
+__unknown_file (G
+E
+%16>org.springframework.security.config.http.SessionCreationPolicy2WsessionCreationPolicy(Lorg/springframework/security/config/http/SessionCreationPolicy;)"o
+%. %(lc
+a
+%17Zorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer:q
+%# %(*e
+managerZorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurerB20
+.org.springframework.security.config.Customizer

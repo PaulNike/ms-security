@@ -1,0 +1,5 @@
+com.codigo.mslogin.entity.Usuario#getAuthorities()Ljava/util/Collection;
+org.springframework.security.core.authority.SimpleGrantedAuthority#<init>(Ljava/lang/String;)V
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+org.springframework.security.core.authority.SimpleGrantedAuthority#instance-init#
+java.lang.Enum#name()Ljava/lang/String;

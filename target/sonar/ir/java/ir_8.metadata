@@ -1,0 +1,8 @@
+com.codigo.mslogin.service.impl.JWTServiceImpl#extractAllClaims(Ljava/lang/String;)Lio/jsonwebtoken/Claims;
+com.codigo.mslogin.service.impl.JWTServiceImpl#getSignKey()Ljava/security/Key;
+io.jsonwebtoken.Jwts#parserBuilder()Lio/jsonwebtoken/JwtParserBuilder;
+==
+build io.jsonwebtoken.JwtParserBuilder#build()Lio/jsonwebtoken/JwtParser;
+getBody io.jsonwebtoken.Jwt#getBody()Ljava/lang/Object;
+setSigningKey io.jsonwebtoken.JwtParserBuilder#setSigningKey(Ljava/security/Key;)Lio/jsonwebtoken/JwtParserBuilder;
+parseClaimsJws io.jsonwebtoken.JwtParser#parseClaimsJws(Ljava/lang/String;)Lio/jsonwebtoken/Jws;

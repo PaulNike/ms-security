@@ -1,0 +1,8 @@
+com.codigo.mslogin.service.impl.AuthenticationServiceImpl#signUpAdmin(Lcom/codigo/mslogin/request/SignUpRequest;)Lcom/codigo/mslogin/entity/Usuario;
+com.codigo.mslogin.entity.Usuario#instance-init#
+org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder#instance-init#
+com.codigo.mslogin.entity.Usuario#<init>()V
+org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder#<init>()V
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+encode org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder#encode(Ljava/lang/CharSequence;)Ljava/lang/String;

@@ -1,0 +1,99 @@
+
+ícom.codigo.mslogin.controller.AuthenticationController#signin(Lcom/codigo/mslogin/request/SignInRequest;)Lorg/springframework/http/ResponseEntity;}
+s/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/controller/AuthenticationController.java!2 !(8"startingBlock*ä
+startingBlock!8 !(bç
+ä
+
+__unknown_file (
+%3"__id*b
+
+__unknown_file (F*D
+9
+signInRequest(com.codigo.mslogin.request.SignInRequest"
+emailê
+ç
+
+__unknown_file (
+%4"__id*e
+
+__unknown_file (I*G
+9
+signInRequest(com.codigo.mslogin.request.SignInRequest"
+
+passwordò
+ï
+!9 !(E
+%5"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%3Ö
+Ç
+!T !(aD
+9
+signInRequest(com.codigo.mslogin.request.SignInRequest"
+email"__annotation*"
+
+__unknown_file (
+
+%5ò
+ï
+!9 !(E
+%6"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%4à
+Ö
+!T !(aG
+9
+signInRequest(com.codigo.mslogin.request.SignInRequest"
+
+password"__annotation*"
+
+__unknown_file (
+
+%6*
+1*õ
+1" "(æ
+ª
+"! "(66
+%00com.codigo.mslogin.service.AuthenticationService"__id*q
+
+__unknown_file (U*S8
+6com.codigo.mslogin.controller.AuthenticationController"
+authenticationServiceƒ¡
+"! "(L8
+%12com.codigo.mslogin.response.AuthenticationResponse"ócom.codigo.mslogin.service.AuthenticationService#signin(Lcom/codigo/mslogin/request/SignInRequest;)Lcom/codigo/mslogin/response/AuthenticationResponse;*T
+
+__unknown_file (8
+6
+%00com.codigo.mslogin.service.AuthenticationService*W
+
+__unknown_file (;
+9
+signInRequest(com.codigo.mslogin.request.SignInRequest22signin(Lcom/codigo/mslogin/request/SignInRequest;)∆
+√
+" "(M-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*V
+
+__unknown_file (:
+8
+%12com.codigo.mslogin.response.AuthenticationResponse";
+" "(N/
+-
+%2'org.springframework.http.ResponseEntity:E
+!9 !(a9
+signInRequest(com.codigo.mslogin.request.SignInRequestB:8
+6com.codigo.mslogin.controller.AuthenticationControllerH

@@ -1,0 +1,24 @@
+com.codigo.mslogin.config.JwtAuthenticationFilter#doFilterInternal(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V
+org.springframework.util.StringUtils#isEmpty(Ljava/lang/Object;)Z
+org.springframework.util.StringUtils#startsWithIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z
+java.lang.String#substring(I)Ljava/lang/String;
+org.springframework.security.core.context.SecurityContextHolder#setContext(Lorg/springframework/security/core/context/SecurityContext;)V
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken#<init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Collection;)V
+org.springframework.security.web.authentication.WebAuthenticationDetailsSource#<init>()V
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken#instance-init#
+java.util.Objects#nonNull(Ljava/lang/Object;)Z
+org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;
+org.springframework.security.web.authentication.WebAuthenticationDetailsSource#instance-init#
+org.springframework.security.core.context.SecurityContextHolder#createEmptyContext()Lorg/springframework/security/core/context/SecurityContext;
+==
+setDetails org.springframework.security.authentication.AbstractAuthenticationToken#setDetails(Ljava/lang/Object;)V
+getAuthentication org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;
+doFilter jakarta.servlet.FilterChain#doFilter(Ljakarta/servlet/ServletRequest;Ljakarta/servlet/ServletResponse;)V
+userDetailsService com.codigo.mslogin.service.UsuarioService#userDetailsService()Lorg/springframework/security/core/userdetails/UserDetailsService;
+buildDetails org.springframework.security.web.authentication.WebAuthenticationDetailsSource#buildDetails(Ljakarta/servlet/http/HttpServletRequest;)Lorg/springframework/security/web/authentication/WebAuthenticationDetails;
+getAuthorities org.springframework.security.core.userdetails.UserDetails#getAuthorities()Ljava/util/Collection;
+validateToken com.codigo.mslogin.service.JWTService#validateToken(Ljava/lang/String;Lorg/springframework/security/core/userdetails/UserDetails;)Z
+setAuthentication org.springframework.security.core.context.SecurityContext#setAuthentication(Lorg/springframework/security/core/Authentication;)V
+getHeader jakarta.servlet.http.HttpServletRequest#getHeader(Ljava/lang/String;)Ljava/lang/String;
+loadUserByUsername org.springframework.security.core.userdetails.UserDetailsService#loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;
+extractUserName com.codigo.mslogin.service.JWTService#extractUserName(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,36 @@
+
+Ûcom.codigo.mslogin.config.SecurityConfiguration#authenticationManager(Lorg/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration;)Lorg/springframework/security/authentication/AuthenticationManager;v
+l/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/config/SecurityConfiguration.java:! :(6"startingBlock*Å
+startingBlock:6 :(oï
+í
+9 9(	
+%1"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*¶
+
+__unknown_file (â
+Ü
+authenticationConfigurationgorg.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration»
+≈
+:S :(nÜ
+authenticationConfigurationgorg.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration"__annotation*"
+
+__unknown_file (
+
+%1*
+1* 
+1; ;(*„‡
+; ;(EG
+%0Aorg.springframework.security.authentication.AuthenticationManager"≈org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration#getAuthenticationManager()Lorg/springframework/security/authentication/AuthenticationManager;*¶
+
+__unknown_file (â
+Ü
+authenticationConfigurationgorg.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration2getAuthenticationManager()"U
+; ;(FI
+G
+%0Aorg.springframework.security.authentication.AuthenticationManager:ì
+:7 :(nÜ
+authenticationConfigurationgorg.springframework.security.config.annotation.authentication.configuration.AuthenticationConfigurationB31
+/com.codigo.mslogin.config.SecurityConfigurationH

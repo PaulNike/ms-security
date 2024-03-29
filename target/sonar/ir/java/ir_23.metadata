@@ -1,0 +1,4 @@
+com.codigo.mslogin.controller.AuthenticationController#signin(Lcom/codigo/mslogin/request/SignInRequest;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+==
+signin com.codigo.mslogin.service.AuthenticationService#signin(Lcom/codigo/mslogin/request/SignInRequest;)Lcom/codigo/mslogin/response/AuthenticationResponse;

@@ -1,0 +1,6 @@
+com.codigo.mslogin.service.impl.JWTServiceImpl#isTokenExpired(Ljava/lang/String;)Z
+java.util.Date#<init>()V
+com.codigo.mslogin.service.impl.JWTServiceImpl#extractClaims(Ljava/lang/String;Ljava/util/function/Function;)Ljava/lang/Object;
+java.util.Date#instance-init#
+==
+before java.util.Date#before(Ljava/util/Date;)Z

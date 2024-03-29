@@ -1,0 +1,18 @@
+
+dcom.codigo.mslogin.controller.AdminController#saludoAdmin()Lorg/springframework/http/ResponseEntity;t
+j/D:/TECSUP/G3/Pro/Material/clase/ms-login/src/main/java/com/codigo/mslogin/controller/AdminController.java" (-"1*ç
+1 (š
+—
+ (.-
+%0'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity**
+
+__unknown_file (
+
+Hola Admin";
+ (//
+-
+%0'org.springframework.http.ResponseEntityB1/
+-com.codigo.mslogin.controller.AdminControllerH

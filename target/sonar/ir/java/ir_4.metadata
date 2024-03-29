@@ -1,0 +1,13 @@
+com.codigo.mslogin.service.impl.JWTServiceImpl#generateToken(Lorg/springframework/security/core/userdetails/UserDetails;)Ljava/lang/String;
+com.codigo.mslogin.service.impl.JWTServiceImpl#getSignKey()Ljava/security/Key;
+java.util.Date#<init>(J)V
+io.jsonwebtoken.Jwts#builder()Lio/jsonwebtoken/JwtBuilder;
+java.util.Date#instance-init#
+java.lang.System#currentTimeMillis()J
+==
+setSubject io.jsonwebtoken.JwtBuilder#setSubject(Ljava/lang/String;)Lio/jsonwebtoken/JwtBuilder;
+setIssuedAt io.jsonwebtoken.JwtBuilder#setIssuedAt(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;
+compact io.jsonwebtoken.JwtBuilder#compact()Ljava/lang/String;
+signWith io.jsonwebtoken.JwtBuilder#signWith(Ljava/security/Key;Lio/jsonwebtoken/SignatureAlgorithm;)Lio/jsonwebtoken/JwtBuilder;
+setExpiration io.jsonwebtoken.JwtBuilder#setExpiration(Ljava/util/Date;)Lio/jsonwebtoken/JwtBuilder;
+getUsername org.springframework.security.core.userdetails.UserDetails#getUsername()Ljava/lang/String;

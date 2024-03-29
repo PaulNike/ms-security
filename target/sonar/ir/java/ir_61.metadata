@@ -1,0 +1,8 @@
+com.codigo.mslogin.config.SecurityConfiguration#authenticationProvider()Lorg/springframework/security/authentication/AuthenticationProvider;
+org.springframework.security.authentication.dao.DaoAuthenticationProvider#instance-init#
+org.springframework.security.authentication.dao.DaoAuthenticationProvider#<init>()V
+==
+passwordEncoder com.codigo.mslogin.config.SecurityConfiguration#passwordEncoder()Lorg/springframework/security/crypto/password/PasswordEncoder;
+userDetailsService com.codigo.mslogin.service.UsuarioService#userDetailsService()Lorg/springframework/security/core/userdetails/UserDetailsService;
+setUserDetailsService org.springframework.security.authentication.dao.DaoAuthenticationProvider#setUserDetailsService(Lorg/springframework/security/core/userdetails/UserDetailsService;)V
+setPasswordEncoder org.springframework.security.authentication.dao.DaoAuthenticationProvider#setPasswordEncoder(Lorg/springframework/security/crypto/password/PasswordEncoder;)V

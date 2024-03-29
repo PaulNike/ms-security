@@ -1,0 +1,3 @@
+com.codigo.mslogin.config.SecurityConfiguration#authenticationManager(Lorg/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration;)Lorg/springframework/security/authentication/AuthenticationManager;
+==
+getAuthenticationManager org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration#getAuthenticationManager()Lorg/springframework/security/authentication/AuthenticationManager;

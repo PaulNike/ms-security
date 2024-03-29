@@ -1,0 +1,4 @@
+com.codigo.mslogin.service.impl.JWTServiceImpl#getSignKey()Ljava/security/Key;
+io.jsonwebtoken.security.Keys#hmacShaKeyFor([B)Ljavax/crypto/SecretKey;
+==
+decode io.jsonwebtoken.io.Decoder#decode(Ljava/lang/Object;)Ljava/lang/Object;
