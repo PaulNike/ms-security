@@ -43,3 +43,10 @@ S
 #.github/workflows/main_ms-login.yml,7\6\76ae8a202015fc98c6e22b8bfc70f4a8c104469e
 8
 mvnw.cmd,1\f\1f1763f358c257ea3515417352b82b0165647ad1
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+I
+kubernetes/deployment.yml,5\7\5709785ad7a810d1773f2c02b859f0e64622c830
+F
+kubernetes/service.yml,3\4\348d5889f6deb74eea39a2fce1d797596d57a86f

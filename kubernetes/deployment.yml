@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: ms-security
+spec:
+  replicas: #replicaNo#
+  selector:
+    matchLabels:
+      app: ms-security
+  template:
+    metadata:
+      labels:
+        app: ms-security
+    spec:
+      containers:
+        - name: ms-security
+          image: myaksclust-gruporecursosg3-ee96aa-62rdhcnq.hcp.eastus.azmk8s.io/ms-security
+          ports:
+            - containerPort: 80
